@@ -35,7 +35,9 @@
     border-radius: 5px;
     color: #005FAC;
 }
+
 /* my failure section styles */
+
 .myfailure{
     margin: 130px 320px 0 200px ;
     display: flex;
@@ -68,4 +70,64 @@
     height: 24px;
     width: 24px;
     margin-right: 10px;
+}
+
+/* my plan seciton style */
+
+.my-plan{
+    margin-top: 130px;
+}
+.plan-title{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+.plan-items-container{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+}
+.plan-item .item-title{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+}
+.plan-item .item-description{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+
+/* mindset section styles */
+.mindset-container{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+.mindset{
+    margin-top: 130px;
+    margin-bottom: 130px;
+    padding: 40px 700px 40px 64px;
+    background: url(../images/watch.png),url(../images/gradient1.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+     /*this is for bonus marks  */
+    background-blend-mode:soft-light;
+    border-radius: 8px;
+}
+.mindset-title{
+    font-size: 40px;
+    font-weight: 650;
+    color: white;
+    margin-bottom: 24px;
+}
+.mindset .primary-btn{
+    padding: 20px 36px;
 }
