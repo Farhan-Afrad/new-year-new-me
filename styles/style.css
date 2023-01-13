@@ -132,6 +132,39 @@
     padding: 20px 36px;
 }
 
+/* web development styles for bonus marks */
+.web-dev .plan-title{
+    margin-bottom: 20px;
+}
+hr{
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 1.5px;
+    background: #aeaeae;
+    margin-bottom: 30px;
+}
+.web-dev-container{
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.web-dev .plan-item{
+    width: 30%;
+}
+.web-dev img{
+    width: 95px;
+    height: 95px;
+}
+.reference{
+    margin:50px 0px 60px 210px;
+    color: #737272;
+
+}
+
 /* footer styles */
 footer{
     background: #151414;
