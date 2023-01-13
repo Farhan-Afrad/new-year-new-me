@@ -131,3 +131,58 @@
 .mindset .primary-btn{
     padding: 20px 36px;
 }
+
+/* footer styles */
+footer{
+    background: #151414;
+}
+.footer-container{
+    max-width: 1140px;
+    display: flex;
+    gap: 320px;
+    margin: 0 auto;
+    padding: 130px 0;
+    background: #151414;
+    color: white;
+}
+.footer-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+.subscribe .footer-title{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.footer-description{
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+.email{
+    margin-bottom: 16px;
+
+}
+.phone-number{
+    margin-bottom: 32px;
+}
+.future img{
+    margin-right: 16px;
+}
+input[type="text"]{
+    padding: 14px 22px;
+    font-size: 18px;
+    background: #151414;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+.secondary-btn{
+    padding: 13px 21px;
+    font-size: 20px;
+    color: white;
+    background: #005FAC;
+    border-radius: 6px;
+}
